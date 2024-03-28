@@ -12,131 +12,134 @@
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
 
+        <style>
+
+        .btn--primary, .btn--primary:visited {
+            background: #2d7f83 !important;
+            border-color: #2d7f83 !important;
+        }
+
+        .input-radio label:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 1px solid #2d7f83 !important;
+            transition: 0.3s ease;
+            -webkit-transition: 0.3s ease;
+            -moz-transition: 0.3s ease;
+            opacity: 0;
+            left: 0;
+        }
+
+        .input-radio input:checked + label {
+            border-color: #2d7f83 !important;
+            background-color: #2d7f83 !important;
+        }
+
+        .input-checkbox input:checked + label {
+            border-color: #2d7f83 !important;
+            background-color: #2d7f83 !important;
+        }
+
+        .input-checkbox label:before {
+            content: '';
+            left: 0;
+            border-radius: 6px;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 1px solid #2d7f83 !important;
+            opacity: 0;
+            transition: 0.3s ease;
+            -webkit-transition: 0.3s ease;
+            -moz-transition: 0.3s ease;
+        }
+
+        </style>
+
     </head>
     <body data-smooth-scroll-offset="77">
         <div class="nav-container"> </div>
         <div class="main-container">
+
             <section class="">
-                <div class="container boxed boxed--border">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature feature-6"> <img class="" src="img/icons/Element1.png"></img>
-                                <h5>Flexibel</h5>
-                                <p> Ihr Werbespot kann innerhalb von 24h auf den 
-                                    Osnaboards laufen, das gilt auch für Werbespotwechsel. So können Sie Ihr Kontingent flexibel 
-                                    nach Ihren Bedürfnissen anpassen. </p>
+                <div class="container">
+                    <div class="boxed boxed--border boxed--border--glow">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-3">
+                                <div class="text-block"> <img class="" src="img/icons/Element1.png"></img>
+                                    <h4>Flexibel</h4>
+                                    <p> Ihr Werbespot kann innerhalb von 24h auf den 
+                                        Osnaboards laufen, das gilt auch für Werbespotwechsel. So können Sie Ihr Kontingent flexibel 
+                                        nach Ihren Bedürfnissen anpassen. </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature feature-6"> <img class="" src="img/icons/Element2.png"></img>
-                                <h5>Zielgerichtet</h5>
-                                <p> Hohe Leuchtkraft, die hochfrenquentierten Standorte 
-                                    und die damit verbundene Reichweite, bringen Ihre 
-                                    Werbebotschaft direkt an Ihre Zielgruppe </p>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="text-block"> <img class="" src="img/icons/Element2.png"></img>
+                                    <h4>Zielgerichtet</h4>
+                                    <p> Hohe Leuchtkraft, die hochfrenquentierten Standorte 
+                                        und die damit verbundene Reichweite, bringen Ihre 
+                                        Werbebotschaft direkt an Ihre Zielgruppe </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature feature-6"> <img class="" src="img/icons/Element3.png"></img>
-                                <h5>Preiswert</h5>
-                                <p> Eine hochmoderne Werbelösung mit maximaler 
-                                    Reichweite und erstklassigem Preis- Leistungsverhältnis. </p>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="text-block"> <img class="" src="img/icons/Element3.png"></img>
+                                    <h4>Preiswert</h4>
+                                    <p> Eine hochmoderne Werbelösung mit maximaler 
+                                        Reichweite und erstklassigem Preis- Leistungsverhältnis. </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature feature-6"> <img class="" src="img/icons/Element4.png"></img>
-                                <h5>Umsatzsteigernd</h5>
-                                <p> Sie können Ihr Geschäft, 
-                                    Ihre Dienstleistung oder Ihre Produkte publik 
-                                    machen, aber auch Personalsuche und Events
-                                    bewerben Sie gewinnbringend. </p>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="text-block"> <img class="" src="img/icons/Element4.png"></img>
+                                    <h4>Umsatzsteigernd</h4>
+                                    <p> Sie können Ihr Geschäft, 
+                                        Ihre Dienstleistung oder Ihre Produkte publik 
+                                        machen, aber auch Personalsuche und Events
+                                        bewerben Sie gewinnbringend. </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             </br>
+
             <section class="bg--dark">
-                <div class="container boxed boxed--border">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature feature-6"> <img class="" src="img/icons/Element1.png"></img>
-                                <h5>Flexibel</h5>
-                                <p> Ihr Werbespot kann innerhalb von 24h auf den 
-                                    Osnaboards laufen, das gilt auch für Werbespotwechsel. So können Sie Ihr Kontingent flexibel 
-                                    nach Ihren Bedürfnissen anpassen. </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature feature-6"> <img class="" src="img/icons/Element2.png"></img>
-                                <h5>Zielgerichtet</h5>
-                                <p> Hohe Leuchtkraft, die hochfrenquentierten Standorte 
-                                    und die damit verbundene Reichweite, bringen Ihre 
-                                    Werbebotschaft direkt an Ihre Zielgruppe </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature feature-6"> <img class="" src="img/icons/Element3.png"></img>
-                                <h5>Preiswert</h5>
-                                <p> Eine hochmoderne Werbelösung mit maximaler 
-                                    Reichweite und erstklassigem Preis- Leistungsverhältnis. </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature feature-6"> <img class="" src="img/icons/Element4.png"></img>
-                                <h5>Umsatzsteigernd</h5>
-                                <p> Sie können Ihr Geschäft, 
-                                    Ihre Dienstleistung oder Ihre Produkte publik 
-                                    machen, aber auch Personalsuche und Events
-                                    bewerben Sie gewinnbringend. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            </br>
-            <section class="imageblock switchable feature-large">
-                <div class="imageblock__content col-lg-4 col-md-3 pos-right">
-                    <div class="background-image-holder"> <img alt="image" src="img/feature_three_image.webp"> </div>
-                </div>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-7 col-md-8">
-                            <h2>Warum die Osnaboards ?</h2>
-                            <p class="lead"> BliBlaBlubBliBlaBlubBliBlaBlubBliBlaBlubBliBlaBlubBl </p>
-                            <div class="feature-large__group">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="feature feature-6"> <img class="" src="img/icons/Element1.png"></img>
-                                            <h5>Flexibel</h5>
-                                            <p> Ihr Werbespot kann innerhalb von 24h auf den 
-                                                Osnaboards laufen, das gilt auch für Werbespotwechsel. So können Sie Ihr Kontingent flexibel 
-                                                nach Ihren Bedürfnissen anpassen. </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="feature feature-6"> <img class="" src="img/icons/Element2.png"></img>
-                                            <h5>Zielgerichtet</h5>
-                                            <p> Hohe Leuchtkraft, die hochfrenquentierten Standorte 
-                                                und die damit verbundene Reichweite, bringen Ihre 
-                                                Werbebotschaft direkt an Ihre Zielgruppe </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="feature feature-6"> <img class="" src="img/icons/Element3.png"></img>
-                                            <h5>Preiswert</h5>
-                                            <p> Eine hochmoderne Werbelösung mit maximaler 
-                                                Reichweite und erstklassigem Preis- Leistungsverhältnis. </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="feature feature-6"> <img class="" src="img/icons/Element4.png"></img>
-                                            <h5>Umsatzsteigernd</h5>
-                                            <p> Sie können Ihr Geschäft, 
-                                                Ihre Dienstleistung oder Ihre Produkte publik 
-                                                machen, aber auch Personalsuche und Events
-                                                bewerben Sie gewinnbringend. </p>
-                                        </div>
-                                    </div>
+                    <div class="boxed boxed--border boxed--border--glow">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-3">
+                                <div class="text-block"> <img class="" src="img/icons/Element1.png"></img>
+                                    <h4>Flexibel</h4>
+                                    <p> Ihr Werbespot kann innerhalb von 24h auf den 
+                                        Osnaboards laufen, das gilt auch für Werbespotwechsel. So können Sie Ihr Kontingent flexibel 
+                                        nach Ihren Bedürfnissen anpassen. </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="text-block"> <img class="" src="img/icons/Element2.png"></img>
+                                    <h4>Zielgerichtet</h4>
+                                    <p> Hohe Leuchtkraft, die hochfrenquentierten Standorte 
+                                        und die damit verbundene Reichweite, bringen Ihre 
+                                        Werbebotschaft direkt an Ihre Zielgruppe </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="text-block"> <img class="" src="img/icons/Element3.png"></img>
+                                    <h4>Preiswert</h4>
+                                    <p> Eine hochmoderne Werbelösung mit maximaler 
+                                        Reichweite und erstklassigem Preis- Leistungsverhältnis. </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="text-block"> <img class="" src="img/icons/Element4.png"></img>
+                                    <h4>Umsatzsteigernd</h4>
+                                    <p> Sie können Ihr Geschäft, 
+                                        Ihre Dienstleistung oder Ihre Produkte publik 
+                                        machen, aber auch Personalsuche und Events
+                                        bewerben Sie gewinnbringend. </p>
                                 </div>
                             </div>
                         </div>
@@ -144,164 +147,118 @@
                 </div>
             </section>
             </br>
-            <section class="imageblock switchable feature-large bg--dark">
-                <div class="imageblock__content col-lg-4 col-md-3 pos-right">
-                    <div class="background-image-holder"> <img alt="image" src="img/feature_three_image.webp"> </div>
-                </div>
+
+            <section class="">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-7 col-md-8">
-                            <h2>Warum die Osnaboards ?</h2>
-                            <p class="lead"> BliBlaBlubBliBlaBlubBliBlaBlubBliBlaBlubBliBlaBlubBl </p>
-                            <div class="feature-large__group">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="feature feature-6"> <img class="" src="img/icons/Element1.png"></img>
-                                            <h5>Flexibel</h5>
-                                            <p> Ihr Werbespot kann innerhalb von 24h auf den 
-                                                Osnaboards laufen, das gilt auch für Werbespotwechsel. So können Sie Ihr Kontingent flexibel 
-                                                nach Ihren Bedürfnissen anpassen. </p>
-                                        </div>
+                    <div class="row justify-content-center no-gutters">
+                        <div class="col-md-10 col-lg-12">
+                            <div class="boxed boxed--border boxed--border--glow">
+                                <form class="text-left form-email row mx-0" data-success="Vielen Dank für Ihr Interesse an den Osnaboards." data-error="Bitte füllen SIe die hervorgehobenen Felder aus." data-recaptcha-sitekey="">
+                                    <div class="col-md-12"> <span>Firma:</span> <input type="text" name="firma" class=""> </div>
+									<div class="col-md-4"> <span>Anrede:</span>
+										<select class="validate-required">
+											<option selected="selected" value="">Bitte wählen</option>
+											<option value="herr">Herr</option>
+											<option value="frau">Frau</option>
+										</select>
+										<label></label>
+									</div>
+                                    <div class="col-md-4"> <span>Vorname:</span> <input type="text" name="vorname" class="validate-required"> </div>
+                                    <div class="col-md-4"> <span>Name:</span> <input type="text" name="name" class="validate-required"> </div>
+                                    <div class="col-md-12"> <span>Emailadresse:</span> <input type="email" name="email" class="validate-required validate-email"> </div>
+                                    <div class="col-md-6"> <span>Telefon:</span> <input type="tel" name="telefon" class="validate-required"> </div>
+                                    <div class="col-md-6"> <span>Mobil:</span> <input type="tel" name="mobil" class=""> </div>
+                                    <div class="col-md-12"> <span>Über Ihre Kampagne:</span> <textarea rows="5" name="beschreibung" class="validate-required"></textarea> </div>
+                                    <div class="col-md-12 text-center boxed">
+                                        <h5>Ich wünsche Informationen zu</h5>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="feature feature-6"> <img class="" src="img/icons/Element2.png"></img>
-                                            <h5>Zielgerichtet</h5>
-                                            <p> Hohe Leuchtkraft, die hochfrenquentierten Standorte 
-                                                und die damit verbundene Reichweite, bringen Ihre 
-                                                Werbebotschaft direkt an Ihre Zielgruppe </p>
-                                        </div>
+                                    <div class="col-md-3 col-6 text-center"> <span class="block">Design</span>
+                                        <div class="input-checkbox"> <input type="checkbox" name="design"> <label></label> </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="feature feature-6"> <img class="" src="img/icons/Element3.png"></img>
-                                            <h5>Preiswert</h5>
-                                            <p> Eine hochmoderne Werbelösung mit maximaler 
-                                                Reichweite und erstklassigem Preis- Leistungsverhältnis. </p>
-                                        </div>
+                                    <div class="col-md-3 col-6 text-center"> <span class="block">Preise</span>
+                                        <div class="input-checkbox"> <input type="checkbox" name="preise"> <label></label> </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="feature feature-6"> <img class="" src="img/icons/Element4.png"></img>
-                                            <h5>Umsatzsteigernd</h5>
-                                            <p> Sie können Ihr Geschäft, 
-                                                Ihre Dienstleistung oder Ihre Produkte publik 
-                                                machen, aber auch Personalsuche und Events
-                                                bewerben Sie gewinnbringend. </p>
-                                        </div>
+                                    <div class="col-md-3 col-6 text-center"> <span class="block">Laufzeit</span>
+                                        <div class="input-checkbox"> <input type="checkbox" name="laufzeit"> <label></label> </div>
                                     </div>
-                                </div>
+                                    <div class="col-md-3 col-6 text-center"> <span class="block">Details</span>
+                                        <div class="input-checkbox"> <input type="checkbox" name="details"> <label></label> </div>
+                                    </div>
+                                    <div class="col-md-12 text-center boxed">
+                                        <h5>Wir haben ein Werbebudget von</h5>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <div class="input-radio"> <span>unter 1.000€</span> <input type="radio" name="budget" value="x" class="validate-required"> <label></label> </div>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <div class="input-radio"> <span>1.000€ - 3.000€</span> <input type="radio" name="budget" value="x" class="validate-required"> <label> </label> </div>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <div class="input-radio"> <span>über 3.000€</span> <input type="radio" name="budget" value="x" class="validate-required"> <label> </label> </div>
+                                    </div>
+                                    <div class="col-md-12 boxed"><span style="color: #2d7f83">* </span><span> sind Pflichtfelder</span> <button type="submit" class="btn btn--primary type--uppercase">Anfragen</button> </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            </br>
-            <section class="switchable--switch feature-large ">
+
+            <section class="bg--dark">
                 <div class="container">
-                    <div class="row justify-content-around">
-                        <div class="col-md-6 text-center"> 
-                            <img alt="Image" class="border--round box-shadow-wide" src="img/feature_three_image.webp"> 
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="boxed boxed--lg boxed--border box-shadow-wide">
-                                <div class="slider" data-paging="true">
-                                    <ul class="slides">
-                                        <li class="col-12">
-                                            <div class="feature feature-3 text-center"> 
-                                                <img class="" src="img/icons/Element1.png"></img>
-                                                <h4>Flexibel</h4>
-                                                <p> Ihr Werbespot kann innerhalb von 24h auf den 
-                                                    Osnaboards laufen, das gilt auch für Werbespotwechsel. So können Sie Ihr Kontingent flexibel 
-                                                    nach Ihren Bedürfnissen anpassen. </p> 
-                                            </div>
-                                        </li>
-                                        <li class="col-12">
-                                            <div class="feature feature-3 text-center"> 
-                                                <img class="" src="img/icons/Element2.png"></img>
-                                                <h4>Zielgerichtet</h4>
-                                                <p> Hohe Leuchtkraft, die hochfrenquentierten Standorte 
-                                                    und die damit verbundene Reichweite, bringen Ihre 
-                                                    Werbebotschaft direkt an Ihre Zielgruppe </p> 
-                                            </div>
-                                        </li>
-                                        <li class="col-12">
-                                            <div class="feature feature-3 text-center"> 
-                                                <img class="" src="img/icons/Element3.png"></img>
-                                                <h4>Preiswert</h4>
-                                                <p> Eine hochmoderne Werbelösung mit maximaler 
-                                                    Reichweite und erstklassigem Preis- Leistungsverhältnis </p> 
-                                            </div>
-                                        </li>
-                                        <li class="col-12">
-                                            <div class="feature feature-3 text-center"> 
-                                                <img class="" src="img/icons/Element4.png"></img>
-                                                <h4>Umsatzsteigernd</h4>
-                                                <p> Sie können Ihr Geschäft, 
-                                                    Ihre Dienstleistung oder Ihre Produkte publik 
-                                                    machen, aber auch Personalsuche und Events
-                                                    bewerben Sie gewinnbringend </p> 
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
+                    <div class="row justify-content-center no-gutters">
+                        <div class="col-md-10 col-lg-12">
+                            <div class="boxed boxed--border boxed--border--glow">
+                                <form class="text-left form-email row mx-0" data-success="Vielen Dank für Ihr Interesse an den Osnaboards." data-error="Bitte füllen SIe die hervorgehobenen Felder aus." data-recaptcha-sitekey="">
+                                    <div class="col-md-12"> <span>Firma:</span> <input type="text" name="firma" class=""> </div>
+									<div class="col-md-4"> <span>Anrede:</span>
+										<select class="validate-required">
+											<option selected="selected" value="">Bitte wählen</option>
+											<option value="herr">Herr</option>
+											<option value="frau">Frau</option>
+										</select>
+										<label></label>
+									</div>
+                                    <div class="col-md-4"> <span>Vorname:</span> <input type="text" name="vorname" class="validate-required"> </div>
+                                    <div class="col-md-4"> <span>Name:</span> <input type="text" name="name" class="validate-required"> </div>
+                                    <div class="col-md-12"> <span>Emailadresse:</span> <input type="email" name="email" class="validate-required validate-email"> </div>
+                                    <div class="col-md-6"> <span>Telefon:</span> <input type="tel" name="telefon" class="validate-required"> </div>
+                                    <div class="col-md-6"> <span>Mobil:</span> <input type="tel" name="mobil" class=""> </div>
+                                    <div class="col-md-12"> <span>Über Ihre Kampagne:</span> <textarea rows="5" name="beschreibung" class="validate-required"></textarea> </div>
+                                    <div class="col-md-12 text-center boxed">
+                                        <h5>Ich wünsche Informationen zu</h5>
+                                    </div>
+                                    <div class="col-md-3 col-6 text-center"> <span class="block">Design</span>
+                                        <div class="input-checkbox"> <input type="checkbox" name="design"> <label></label> </div>
+                                    </div>
+                                    <div class="col-md-3 col-6 text-center"> <span class="block">Preise</span>
+                                        <div class="input-checkbox"> <input type="checkbox" name="preise"> <label></label> </div>
+                                    </div>
+                                    <div class="col-md-3 col-6 text-center"> <span class="block">Laufzeit</span>
+                                        <div class="input-checkbox"> <input type="checkbox" name="laufzeit"> <label></label> </div>
+                                    </div>
+                                    <div class="col-md-3 col-6 text-center"> <span class="block">Details</span>
+                                        <div class="input-checkbox"> <input type="checkbox" name="details"> <label></label> </div>
+                                    </div>
+                                    <div class="col-md-12 text-center boxed">
+                                        <h5>Wir haben ein Werbebudget von</h5>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <div class="input-radio"> <span>unter 1.000€</span> <input type="radio" name="budget" value="x" class="validate-required"> <label></label> </div>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <div class="input-radio"> <span>1.000€ - 3.000€</span> <input type="radio" name="budget" value="x" class="validate-required"> <label> </label> </div>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <div class="input-radio"> <span>über 3.000€</span> <input type="radio" name="budget" value="x" class="validate-required"> <label> </label> </div>
+                                    </div>
+                                    <div class="col-md-12 boxed"><span style="color: #2d7f83">* </span><span> sind Pflichtfelder</span> <button type="submit" class="btn btn--primary type--uppercase">Anfragen</button> </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            </br>
-            <section class="switchable--switch feature-large bg--dark">
-                <div class="container">
-                    <div class="row justify-content-around">
-                        <div class="col-md-6 text-center"> 
-                            <img alt="Image" class="border--round box-shadow-wide" src="img/feature_three_image.webp"> 
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="boxed boxed--lg boxed--border box-shadow-wide">
-                                <div class="slider" data-paging="true">
-                                    <ul class="slides">
-                                        <li class="col-12">
-                                            <div class="feature feature-3 text-center"> 
-                                                <img class="" src="img/icons/Element1.png"></img>
-                                                <h4>Flexibel</h4>
-                                                <p> Ihr Werbespot kann innerhalb von 24h auf den 
-                                                    Osnaboards laufen, das gilt auch für Werbespotwechsel. So können Sie Ihr Kontingent flexibel 
-                                                    nach Ihren Bedürfnissen anpassen. </p> 
-                                            </div>
-                                        </li>
-                                        <li class="col-12">
-                                            <div class="feature feature-3 text-center"> 
-                                                <img class="" src="img/icons/Element2.png"></img>
-                                                <h4>Zielgerichtet</h4>
-                                                <p> Hohe Leuchtkraft, die hochfrenquentierten Standorte 
-                                                    und die damit verbundene Reichweite, bringen Ihre 
-                                                    Werbebotschaft direkt an Ihre Zielgruppe </p> 
-                                            </div>
-                                        </li>
-                                        <li class="col-12">
-                                            <div class="feature feature-3 text-center"> 
-                                                <img class="" src="img/icons/Element3.png"></img>
-                                                <h4>Preiswert</h4>
-                                                <p> Eine hochmoderne Werbelösung mit maximaler 
-                                                    Reichweite und erstklassigem Preis- Leistungsverhältnis </p> 
-                                            </div>
-                                        </li>
-                                        <li class="col-12">
-                                            <div class="feature feature-3 text-center"> 
-                                                <img class="" src="img/icons/Element4.png"></img>
-                                                <h4>Umsatzsteigernd</h4>
-                                                <p> Sie können Ihr Geschäft, 
-                                                    Ihre Dienstleistung oder Ihre Produkte publik 
-                                                    machen, aber auch Personalsuche und Events
-                                                    bewerben Sie gewinnbringend </p> 
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            </br>
 
         </div>
         <script src="js/jquery-3.1.1.min.js"></script>
